@@ -6,7 +6,7 @@
 ?>
 
 <?php 
-echo "hello Test";
+
 $directory_path =  get_template_directory_uri();?>
 
 <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
